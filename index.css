@@ -137,6 +137,9 @@ img {
   padding-top: 40px;
 }
 @media (max-width: 768px) {
+  .home{
+    margin: 40px 30px;
+  }
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -173,9 +176,11 @@ img {
   .col4-bottom-right {
     grid-row: 7/8;
   }
+  
   .right,
   .col1-profile,
   .col1-content {
+  letter-spacing: 50px;
     display: flex;
     justify-content: space-between;
   }
